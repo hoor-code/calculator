@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function op1() {
+            var a = prompt("Enter the first value");
+            var v1 = parseInt(a);
+            var b = prompt("Enter the second value");
+            var v2 = parseInt(b);
+            var c = v1 + v2;
+            document.write("Result of v1 and v2 is " + c);
+
+        }
+        function op2() {
+            var a = prompt("Enter the first value");
+            var v1 = parseInt(a);
+            var b = prompt("Enter the second value");
+            var v2 = parseInt(b);
+            var c = v1 - v2;
+            document.write("Result of v1 and v2 is " + c);
+
+        }
+        function op3() {
+            var a = prompt("Enter the first value");
+            var v1 = parseInt(a);
+            var b = prompt("Enter the second value");
+            var v2 = parseInt(b);
+            var c = v1 * v2;
+            document.write("Result of v1 and v2 is " + c);
+
+        }
+        function op4() {
+            var a = prompt("Enter the first value");
+            var v1 = parseInt(a);
+            var b = prompt("Enter the second value");
+            var v2 = parseInt(b);
+            var c = v1 / v2;
+            document.write("Result of v1 and v2 is " + c);
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <table border="5">
+        <tr>
+            <td colspan="2">Select Operation</td>
+
+        </tr>
+        <tr colspan="1">
+            <td>Addition</td>
+            <td><button onclick="op1()">+</button></td>
+        </tr>
+        <tr colspan="1">
+            <td>Subtraction</td>
+            <td><button onclick="op2()">-</button></td>
+        </tr>
+        <tr colspan="1">
+            <td>Multiplication</td>
+            <td><button onclick="op3()">*</button></td>
+        </tr>
+        <tr colspan="1">
+            <td>Division</td>
+            <td><button onclick="op4()">/</button></td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
